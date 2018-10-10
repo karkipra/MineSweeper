@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Minesweeper</string>
+    <string name="reset">RESET</string>
+    <string name="mine">Mine</string>
+    <string name="flag">Flag</string>
+    <string name="mine_sweeper">Mine Sweeper</string>
+    <string name="winner">You Have Won!</string>
+    <string name="loser">You Have Lost!</string>
+    <string name="youhave">You Have </string>
+    <string name="flagsleft"> Flags Left</string>
+    <string name="unoflagleft"> Flag Left</string>
+
+
 </resources>
