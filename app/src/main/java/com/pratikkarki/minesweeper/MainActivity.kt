@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     fun winner(){
 
-        Snackbar.make(mineSweeperView, getString(R.string.winner), Snackbar.LENGTH_LONG)
+        Snackbar.make(mineSweeperView, getString(R.string.winner), Snackbar.LENGTH_INDEFINITE)
                 .setAction(getString(R.string.reset)){
                     if(btnToggle.isChecked){
                         btnToggle.toggle()
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loser(){
-        Snackbar.make(mineSweeperView, getString(R.string.loser), Snackbar.LENGTH_LONG)
+        Snackbar.make(mineSweeperView, getString(R.string.loser), Snackbar.LENGTH_INDEFINITE)
                 .setAction(getString(R.string.reset)){
                     if(btnToggle.isChecked){
                         btnToggle.toggle()
