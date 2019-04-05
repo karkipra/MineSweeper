@@ -1,4 +1,4 @@
-package com.pratikkarki.minesweeper
+package com.example.aabid.minesweeper
 
 import org.junit.Test
 
